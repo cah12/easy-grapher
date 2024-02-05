@@ -5280,7 +5280,7 @@ class MToolBar extends ToolBar {
       this.addToolButton("link", {
         text: "&Help",
         cb: function () {},
-        href: "https://easy-grapher.herokuapp.com/grapherHelp/Grapher.html",
+        href: "https://cdn.jsdelivr.net/gh/cah12/easy-grapher@latest/grapherHelp/Grapher.html/",
         target: "_blank",
         class: "noSelect",
         tooltip: "Launches online help.",
