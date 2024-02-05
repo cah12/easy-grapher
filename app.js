@@ -5280,7 +5280,7 @@ class MToolBar extends ToolBar {
       this.addToolButton("link", {
         text: "&Help",
         cb: function () {},
-        href: "https://cdn.jsdelivr.net/gh/cah12/easy-grapher@latest/grapherHelp/Grapher.html/",
+        href: "grapherHelp/Grapher.html",
         target: "_blank",
         class: "noSelect",
         tooltip: "Launches online help.",
@@ -51995,7 +51995,6 @@ class MyPlot extends Plot {
     }
     t = fe.fileSystemServices = new f({
       enableNotepad: !0,
-      fsServerUrl: "https://easy-grapher.herokuapp.com",
       listOfFileTypes: [
         {
           display: "Grapher plot (*.plt)",
