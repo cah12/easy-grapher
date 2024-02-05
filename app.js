@@ -51995,7 +51995,7 @@ class MyPlot extends Plot {
     }
     t = fe.fileSystemServices = new f({
       enableNotepad: !0,
-      fsServerUrl: "https://easy-grapher.herokuapp.com",
+      fsServerUrl: "https://easy-grapher.herokuapp.com/",
       listOfFileTypes: [
         {
           display: "Grapher plot (*.plt)",
