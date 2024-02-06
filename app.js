@@ -5282,7 +5282,7 @@ class MToolBar extends ToolBar {
         cb: function () {
           console.log("Callback called");
         },
-        href: "grapherHelp/Grapher.html",
+        href: "Grapher.html",
         target: "_blank",
         class: "noSelect",
         tooltip: "Launches online help.",
