@@ -221,6 +221,7 @@ th {
 }
 
 .rotate {
+  transform: rotate(-90deg);;
   /* Safari */
   -webkit-transform: rotate(-90deg);
 
@@ -415,6 +416,7 @@ input.noInputArrows::-webkit-inner-spin-button {
 
 /* Firefox */
 input.noInputArrows[type=number] {
+  appearance: textfield;
   -moz-appearance: textfield;
 }
 
